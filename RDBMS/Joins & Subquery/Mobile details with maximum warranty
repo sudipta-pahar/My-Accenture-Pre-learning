@@ -1,0 +1,5 @@
+select d.distributor_name,m.model_name,m.price,m.warranty_in_years
+from distributor d,mobile_master m
+where warranty_in_years=(select max(m1.warranty_in_years) from mobile_master m1)
+and d.distributor_id=m.distributor_id
+order by d.distributor_name;
