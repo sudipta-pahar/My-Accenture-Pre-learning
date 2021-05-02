@@ -1,0 +1,5 @@
+insert into customer_info values('C01', 'Mary','Delhi',NULL,'mary@gmail.com');
+insert into customer_info values('C02','Hema','Bangalore',NULL,'hema@yahoo.com');
+insert into customer_info values('C03','Rocky','Chennai',NULL,'rocky12@gmail.com');
+insert into customer_info values('C04','Robin','Mumbai',NULL,'robbywood@yahoo.co.in');
+insert into customer_info values('C05','Swetha','Hyderabad',NULL,'Swethu1993@gmail.com');
