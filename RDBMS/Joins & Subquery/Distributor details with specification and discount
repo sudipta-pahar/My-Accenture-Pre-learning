@@ -1,0 +1,6 @@
+select d.address,mm.manufacturer,mm.model_name,ms.dimension,s.discount
+from distributor d, mobile_master mm,mobile_specification ms,sales_info s 
+where d.distributor_id=mm.distributor_id
+and mm.spec_no=ms.spec_no
+and mm.ime_no=s.ime_no
+order by d.address;
