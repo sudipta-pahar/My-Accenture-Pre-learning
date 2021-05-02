@@ -1,0 +1,3 @@
+select Manufacturer, count(Model_Name) as Mobile_model_count from Mobile_Master
+group by Manufacturer
+order by Mobile_model_count desc, Manufacturer asc;
