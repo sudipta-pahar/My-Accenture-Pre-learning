@@ -1,0 +1,2 @@
+select customer_id,customer_name,address,mobile,email from customer_info 
+    where address='Kolkata' Or address= 'Patna' order by customer_name desc;
