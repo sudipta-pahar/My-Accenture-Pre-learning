@@ -1,0 +1,3 @@
+SELECT Salesid, IME_No, Price, Customer_ID
+FROM Sales_Info
+ORDER BY  IME_No ASC;
