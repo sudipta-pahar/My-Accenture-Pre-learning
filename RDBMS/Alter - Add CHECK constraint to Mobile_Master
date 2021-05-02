@@ -1,0 +1,1 @@
+alter table Mobile_Master ADD CONSTRAINT CHK_WARRANTY Check(Warranty_in_Years>0);
