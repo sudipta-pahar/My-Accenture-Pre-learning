@@ -1,0 +1,3 @@
+select salesid,ime_no,sales_date from sales_info
+    Where to_char(sales_date,'MM-YYYY')='02-2012'
+    Order by salesid;
