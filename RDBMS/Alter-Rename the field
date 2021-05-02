@@ -1,0 +1,2 @@
+ALTER TABLE Distributor
+RENAME COLUMN Distributor_name TO Distributor_Full_name;  
