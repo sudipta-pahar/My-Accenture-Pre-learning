@@ -1,0 +1,2 @@
+SELECT DISTINCT Manufacturer FROM Mobile_Master
+ORDER BY Manufacturer ASC;
