@@ -1,0 +1,1 @@
+select Customer_ID, Sales_Date, add_months(Sales_Date,3) as "REVIEW_DATE" FROM Sales_Info order by Customer_ID;
