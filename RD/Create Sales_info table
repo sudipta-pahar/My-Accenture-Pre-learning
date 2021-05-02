@@ -1,0 +1,1 @@
+create table sales_info(  salesid number(10), Sales_date date,  Ime_no varchar(10), Price number(10),  Discount number(10), Net_amount number(10), Customer_id varchar(10), Constraint pk primary key(salesid),  Constraint fk foreign key(ime_no) references mobile_master,  Constraint fk_new foreign key(Customer_id) references customer_info );
