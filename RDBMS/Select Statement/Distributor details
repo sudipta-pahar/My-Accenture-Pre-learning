@@ -1,0 +1,1 @@
+select distributor_name from distributor where distributor_id!='SA111' and distributor_id!='MC111' order by distributor_name;
