@@ -1,0 +1,3 @@
+select ime_no, model_name,warranty_in_years,price,
+price*13/100 as discount from mobile_master
+where manufacturer= 'Samsung';
