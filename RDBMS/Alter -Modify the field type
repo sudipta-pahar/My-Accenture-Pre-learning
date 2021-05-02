@@ -1,0 +1,1 @@
+alter table Mobile_specification modify Weight number(10);
