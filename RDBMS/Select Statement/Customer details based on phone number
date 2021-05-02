@@ -1,0 +1,1 @@
+select customer_id,customer_Name,address,email from customer_info where mobile Is null order by customer_name desc;
