@@ -1,0 +1,5 @@
+select ime_no,model_name,manufacturer,price
+from mobile_master m join mobile_specification s
+on m.spec_no=s.spec_no
+where os='Android4S'
+order by ime_no;
