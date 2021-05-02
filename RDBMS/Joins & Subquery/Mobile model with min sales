@@ -1,0 +1,8 @@
+select m.model_name,count(*) as "MIN_SALES"
+from mobile_master m,sales_info s
+where m.ime_no=s.ime_no
+group by m.model_name
+having count(*)<=ALL (select count(*) from mobile_master m1,sales_info s1
+                        where m1.ime_no=s1.ime_no
+                        group by m1.model_name)
+order by m.model_name desc;
