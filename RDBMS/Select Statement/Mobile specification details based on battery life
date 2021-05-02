@@ -1,0 +1,1 @@
+select spec_no,dimension,camera_quality,os from mobile_Specification where battery_life_hrs between 7 and 10;
