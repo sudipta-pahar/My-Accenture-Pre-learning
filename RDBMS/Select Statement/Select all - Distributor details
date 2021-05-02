@@ -1,0 +1,2 @@
+SELECT * FROM Distributor
+ORDER BY Distributor_ID ASC;
