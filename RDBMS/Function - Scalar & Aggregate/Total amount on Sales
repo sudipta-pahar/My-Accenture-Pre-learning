@@ -1,0 +1,3 @@
+select to_char(sales_date,'MON') As MONTH,Net_amount as TURN_OVER
+     from sales_info Where sales_date>=sysdate-365
+     Order by net_amount desc;
