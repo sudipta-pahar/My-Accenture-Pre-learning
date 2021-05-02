@@ -1,0 +1,6 @@
+select c.customer_id, customer_name, mobile, price 
+from customer_info c 
+join sales_info s
+on c.customer_id=s.customer_id
+where price<30000
+order by c.customer_id;
