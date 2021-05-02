@@ -1,0 +1,2 @@
+select customer_name,Length(customer_name) as length_name from customer_info
+    Order by customer_name;
