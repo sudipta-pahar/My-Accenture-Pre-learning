@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <centre>
+        <h1>TRAVEL RESERVATION FORM</h1>
+        <h3> * denotes mandatory </h3>
+        <hr>
+        <input type="text" placeholder="Name" name="passengername">
+        <input type="tel" placeholder="*Mobile Number" name="mobile" required>
+        <input type="email" placeholder="*Email ID" name="mailId" required>
+        <select name="travelmonth">
+            <option value="Month of Travel" selected>Month of Travel</option>
+            <option value="Aug2018">Aug2018</option>
+            <option value="sep2018">Sep2018</option>
+            <option value="oct2018">Oct2018</option>
+            <option value="nov2018">Nov2018</option>
+            <option value="dec2018">Dec2018</option>
+            <option value="jan2019">Jan2019</option>
+            <option value="feb2019">Feb2019</option>
+            <option value="mar2019">Mar2019</option>
+            <option value="apr2019">Apr2019</option>
+        </select> 
+        <br>
+        <select name="package" required>
+            <option value="origin"> *Origin</option>
+        </select>
+        <input type="text" placeholder="Destination" name="destination">
+        <input type="submit" name="submit" value="Get A Call">
+        <input type="reset" name="clear" value="Clear">
+    </centre>
+</html>
